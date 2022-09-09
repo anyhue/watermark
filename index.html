@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaterMark Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>WaterMark</h2>
+    <canvas></canvas>
+    <form id="text-form">
+        <input id="text-input" type="text" placeholder="텍스트를 입력하세요" />
+    </form>
+    
+    <select id="font-family-select">
+        <option id="ONE-Mobile-Regular">ONE 모바일고딕</option>
+        <option id="ONE-Mobile-POP">ONE 모바일POP</option>
+        <option id="SunBatang-Light">순바탕</option>
+    </select>
+    
+    <div id="font-style">
+        <select id="font-size">
+            <option>글자 크기</option>
+        </select>
+        <input id="color" type="color">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
